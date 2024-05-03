@@ -47,6 +47,6 @@ list_dir
 exit
 ```
 ### Critérios de Avaliação:
-Funcionalidade: O código deve compilar sem erros e executar todas as operações conforme especificado.
-Clareza e Legibilidade do Código: Uso adequado de comentários, nomes de variáveis claros e estrutura lógica do código.
-Adesão ao Design Orientado a Objetos: Uso efetivo de classes e objetos.
+- Funcionalidade: O código deve compilar sem erros e executar todas as operações conforme especificado.
+- Clareza e Legibilidade do Código: Uso adequado de comentários, nomes de variáveis claros e estrutura lógica do código.
+- Adesão ao Design Orientado a Objetos: Uso efetivo de classes e objetos.
