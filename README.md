@@ -18,7 +18,7 @@ Este desafio envolve conceitos avançados de programação em C++, como gestão 
 - Deletar um arquivo.
 
 **Operações de Diretórios:**
--Criar um novo diretório.
+- Criar um novo diretório.
 - Remover um diretório (somente se estiver vazio para simplificar).
 - Listar o conteúdo de um diretório (arquivos e subdiretórios).
 
