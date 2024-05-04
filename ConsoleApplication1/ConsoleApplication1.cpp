@@ -181,9 +181,9 @@ int main() {
         else if (comando == "change_dir") {
             iss >> nome;
             if (nome == "..") {
-                // Implementação simplificada, não trata root ou diretórios superiores corretamente
+                
                 if (currentDir->getNome() != "root") {
-                    currentDir = root;  // Simplificação para voltar ao root
+                    currentDir = root; 
                 }
             }
             else {
