@@ -131,17 +131,6 @@ public:
     }
 };
 
-
-
-
-
-////////////////////////////////////////////////////
-
-
-
-
-
-
 int main() {
     std::shared_ptr<Diretorio> root = std::make_shared<Diretorio>("root");
     std::shared_ptr<Diretorio> currentDir = root;
@@ -163,8 +152,8 @@ int main() {
         }
         else if (comando == "write_file") {
             iss >> nome;
-            iss.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Ignora o resto da linha até a próxima nova linha
-            std::getline(std::cin, conteudo);  // Captura o resto da linha como conteúdo do arquivo
+            iss.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::getline(std::cin, conteudo);  
             currentDir->escreverArquivo(nome, conteudo);
         }
         else if (comando == "read_file") {
